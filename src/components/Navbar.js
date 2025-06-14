@@ -35,6 +35,9 @@ function Navbar() {
               <ListItem onClick={() => setOpenDrawer(false)} component={Link} to="/ar-viewer">
                 <ListItemText primary="AR Viewer" />
               </ListItem>
+              <ListItem onClick={() => setOpenDrawer(false)} component={Link} to="/custom-livery">
+                <ListItemText primary="Custom Livery" />
+              </ListItem>
             </List>
           </Drawer>
         </div>

@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useRef } from "react";
-import "@google/model-viewer/";
 import { TbHexagon3D } from "react-icons/tb";
 import classNames from "classnames";
 
